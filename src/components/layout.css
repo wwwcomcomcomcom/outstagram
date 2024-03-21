@@ -1,0 +1,26 @@
+/* Phone Layout */
+@media screen and (max-width: 1000px) {
+    #root {
+        display: flex;
+        flex-direction: column;
+    }
+    .main {
+        font-size: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        flex-grow: 10;
+    }
+}
+/* Desktop Layout */
+@media screen and (min-width: 1000px) {
+    #root {
+        display: flex;
+        flex-direction:row-reverse;
+    }
+    .main {
+        font-size: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        flex-grow: 9;
+    }
+}

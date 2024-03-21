@@ -18,16 +18,3 @@
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
-
-@media screen and (min-width: 1000px) {
-    #root {
-        display: flex;
-        flex-direction:row-reverse;
-    }
-    .main {
-        font-size: 3rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        flex-grow: 9;
-    }
-}
