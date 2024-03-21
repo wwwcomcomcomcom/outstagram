@@ -1,7 +1,7 @@
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Layout from "./components/layout.tsx";
 import Profile from "./routes/profile.tsx";
-import Home from "./routes/home.tsx";
+import HomePage from "./routes/homePage.tsx";
 import Counter from "./routes/counter.tsx";
 
 import "./reset.css";
@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "",
-        element: <Home></Home>
+        element: <HomePage></HomePage>
       },
       {
         path:"profile",
