@@ -5,15 +5,25 @@ import Counter from "./routes/counter.tsx";
 
 import "./reset.css";
 import NotFound from "./routes/notFound.tsx";
+import SearchPage from "./routes/searchPage.tsx";
+import ExplorerPage from "./routes/explorerPage.tsx";
 
 const router = createBrowserRouter([
   {
     path:"/",
-    element:<Layout></Layout>,
+    element:<Layout/>,
     children: [
       {
         path: "",
-        element: <HomePage></HomePage>
+        element: <HomePage/>
+      },
+      {
+        path:"search",
+        element:<SearchPage/>
+      },
+      {
+        path:"explorer",
+        element:<ExplorerPage/>
       }
     ]
   },
