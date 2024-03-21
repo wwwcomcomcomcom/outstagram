@@ -1,0 +1,25 @@
+@media screen and (max-width: 1000px) {
+    #root {
+        display: flex;
+        flex-direction: column;
+    }
+    .main {
+        font-size: 3rem;
+        padding-left: 1rem;
+        flex-grow: 10;
+    }
+}
+.footBar {
+    background-color: #F0F0F0;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    box-shadow: black -5px 1px 10px 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 0.7;
+}
+.footBar .menuIcon {
+    flex-grow: 1;
+}

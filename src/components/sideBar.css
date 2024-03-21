@@ -1,0 +1,31 @@
+.sideBar {
+    background-color: #F0F0F0;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: black -5px 1px 10px 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 0.6;
+    height: 100%;
+}
+
+.sideBar .menuIcon:first-child {
+    margin-top: 3rem;
+}
+.sideBar .menuIcon {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 1000px) {
+    #root {
+        display: flex;
+        flex-direction:row-reverse;
+    }
+    .main {
+        font-size: 3rem;
+        padding-left: 1rem;
+        flex-grow: 9;
+    }
+}
