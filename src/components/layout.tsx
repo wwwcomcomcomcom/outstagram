@@ -1,7 +1,7 @@
 import {Outlet} from "react-router-dom";
-import SideBar from "./sideBar.tsx";
+import SideBar from "./menuBar/sideBar.tsx";
 import {useState} from "react";
-import FootBar from "./footBar.tsx";
+import FootBar from "./menuBar/footBar.tsx";
 
 export default function Layout(){
     const [width,setWidth] = useState(window.innerWidth);
