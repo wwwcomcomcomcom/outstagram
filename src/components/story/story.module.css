@@ -4,7 +4,6 @@
 
 .storyLine {
     height: 5rem;
-    border-bottom: blanchedalmond 2px solid;
     flex-direction: row;
     align-items: center;
     scrollbar-width: none;
