@@ -1,7 +1,6 @@
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Layout from "./components/layout.tsx";
 import HomePage from "./routes/homePage.tsx";
-import Counter from "./routes/counter.tsx";
 
 import "./reset.css";
 import NotFound from "./routes/notFound.tsx";
@@ -26,10 +25,6 @@ const router = createBrowserRouter([
         element:<ExplorerPage/>
       }
     ]
-  },
-  {
-    path:"counter",
-    element:<Counter/>
   },
   {
     path:"*",
