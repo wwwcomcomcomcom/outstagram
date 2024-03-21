@@ -1,15 +1,20 @@
 .storyLine {
     height: 5rem;
     border-bottom: blanchedalmond 2px solid;
-    display: flex;
     flex-direction: row;
-    align-items: center;
-
+    align-items: stretch;
+    scrollbar-width: none;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .story {
-    width: 4rem;
-    height: 4rem;
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    flex: 0 0 auto;
     margin-left: 1rem;
     margin-right: 1rem;
     border-radius: 50%;
