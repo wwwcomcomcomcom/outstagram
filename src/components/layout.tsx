@@ -14,7 +14,7 @@ export default function Layout(){
     }
     addEventListener("resize",updateScreenInfo);
 
-    const menuBar = width > 1000 ? <SideBar/> : <FootBar/>
+    const menuBar = width > 800 ? <SideBar/> : <FootBar/>
 
     return(
         <>

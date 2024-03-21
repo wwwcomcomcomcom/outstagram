@@ -1,5 +1,5 @@
 /* Phone Layout */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
     #root {
         display: flex;
         flex-direction: column;
@@ -12,15 +12,16 @@
     }
 }
 /* Desktop Layout */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
     #root {
         display: flex;
         flex-direction:row-reverse;
     }
     .main {
-        font-size: 3rem;
+        width: 1rem !important;
+
         padding-left: 1rem;
         padding-right: 1rem;
-        flex-grow: 9;
+        flex-grow: 1;
     }
 }

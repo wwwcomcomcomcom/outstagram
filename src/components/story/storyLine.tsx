@@ -10,7 +10,7 @@ export default function StoryLine(){
         return array;
     }
     
-    return <div className={styles.storyLine}>
+    return <div className={styles.storyWrapper}><div className={styles.storyLine}>
         {...getStories()}
-    </div>
+    </div></div>
 }

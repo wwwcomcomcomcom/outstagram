@@ -6,9 +6,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*flex-grow: 0.6;*/
+    /*width: 6rem;*/
+    max-width: 8rem;
     height: 100%;
-    width: 5.5rem;
+    flex-grow: 1;
+    flex-shrink: 0;
 }
 
 .sideBar .menuIcon:first-child {
