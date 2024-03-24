@@ -6,3 +6,7 @@
 
 ## Goal
 - instagram clone coding
+
+## TODO List
+- StoryLine slide button
+- Smooth scroll (scroll to default with homeIcon)

@@ -14,12 +14,15 @@ export default function Layout(){
     }
     addEventListener("resize",updateScreenInfo);
 
-    const menuBar = width > 800 ? <SideBar/> : <FootBar/>
-
-    return(
-        <>
-            <Outlet></Outlet>
-            {menuBar}
+    if(width > 800){
+        return <>
+            <SideBar/>
+            <Outlet/>
         </>
-    )
+    }else{
+        return <>
+            <Outlet/>
+            <FootBar/>
+        </>
+    }
 }
