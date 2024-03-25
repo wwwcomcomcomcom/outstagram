@@ -46,6 +46,27 @@
     font-weight: 550;
 }
 
+.postFootBar {
+    display: flex;
+    flex-direction: column;
+}
+
+.transactionBar{
+
+}
+
+.likesAmount {
+
+}
+
+.bestComment {
+
+}
+
+.showCommentButton {
+
+}
+
 .postScroll {
     display: flex;
     flex-direction: column;

@@ -1,4 +1,5 @@
 import styles from "./post.module.css"
+import LikeButton from "./likeButton.tsx";
 
 export default function Post() {
 
@@ -15,6 +16,14 @@ export default function Post() {
             </div>
         </div>
         <div className={styles.image}></div>
+        <div className={styles.postFootBar}>
+            <div className={styles.transactionBar}>
+                <LikeButton/>
+            </div>
+            <div className={styles.likesAmount}></div>
+            <div className={styles.bestComment}></div>
+            <div className={styles.showCommentButton}></div>
+        </div>
         {/*<img src="public/images/default-post.png" alt="Image Loading"/>*/}
     </div>
 }
