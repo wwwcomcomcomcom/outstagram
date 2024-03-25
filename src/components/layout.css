@@ -3,11 +3,6 @@
     #root {
         flex-direction: column;
     }
-    .main {
-        font-size: 3rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
 }
 /* Desktop Layout */
 @media screen and (min-width: 800px) {
