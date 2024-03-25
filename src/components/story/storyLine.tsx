@@ -5,7 +5,7 @@ export default function StoryLine(){
     function getStories() {
         const array = [];
         for (let i = 0; i < 10; i++) {
-            array.push(<Story/>);
+            array.push(<Story key={`${i}`}/>);
         }
         return array;
     }
