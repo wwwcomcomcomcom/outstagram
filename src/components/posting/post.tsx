@@ -1,5 +1,5 @@
 import styles from "./post.module.css"
-import LikeButton from "./likeButton.tsx";
+import LikeButton from "./postComponents/likeButton.tsx";
 
 export default function Post() {
 
