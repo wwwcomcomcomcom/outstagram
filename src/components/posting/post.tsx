@@ -1,5 +1,8 @@
 import styles from "./post.module.css"
 import LikeButton from "./postComponents/likeButton.tsx";
+import CommentButton from "./postComponents/commentButton.tsx";
+import ShareButton from "./postComponents/shareButton.tsx";
+import BookmarkButton from "./postComponents/bookmarkButton.tsx";
 
 export default function Post() {
 
@@ -18,7 +21,10 @@ export default function Post() {
         <div className={styles.image}></div>
         <div className={styles.postFootBar}>
             <div className={styles.transactionBar}>
-                <LikeButton/>
+                <LikeButton className={styles.likesAmount}/>
+                <CommentButton/>
+                <ShareButton/>
+                <BookmarkButton/>
             </div>
             <div className={styles.likesAmount}></div>
             <div className={styles.bestComment}></div>
