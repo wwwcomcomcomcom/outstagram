@@ -1,5 +1,6 @@
 import styles from "./story.module.css";
 import Story from "./story.tsx";
+import StoryScrollButton from "../menuBar/storyScrollButton.tsx";
 export default function StoryLine(){
     
     function getStories() {
@@ -10,7 +11,11 @@ export default function StoryLine(){
         return array;
     }
     
-    return <div className={styles.storyWrapper}><div className={styles.storyLine}>
-        {...getStories()}
-    </div></div>
+    return <div className={styles.storyWrapper}>
+        <div className={styles.storyLine}>
+            {...getStories()}
+        </div>
+        <StoryScrollButton direction="left"/>
+        <StoryScrollButton direction="right"/>
+    </div>
 }
