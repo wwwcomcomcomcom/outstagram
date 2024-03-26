@@ -9,4 +9,3 @@
 
 ## TODO List
 - StoryLine slide button
-- Smooth scroll (scroll to default with homeIcon)
