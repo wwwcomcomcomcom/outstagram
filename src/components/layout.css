@@ -3,15 +3,20 @@
     #root {
         flex-direction: column;
     }
+    .main {
+        width: 100%;
+        max-width: 720px;
+        margin-left: max(calc((100% - 720px)/2),0px);
+    }
 }
 /* Desktop Layout */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 801px) {
     #root {
     }
     .main {
-        width: calc(100% - 8rem);
-        margin-left: 6rem;
-        padding-left: 1rem;
-        padding-right: 1rem
+        width: 70%;
+        max-width: 720px;
+        margin-left: calc(15% + 3rem);
+        margin-right: calc(15% - 3rem);
     }
 }

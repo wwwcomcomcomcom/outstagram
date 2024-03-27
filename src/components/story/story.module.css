@@ -12,7 +12,6 @@
     overflow-x: scroll;
     overflow-y: hidden;
     position: relative;
-    max-width: 700px;
     width: 100%;
     left:50%;
     transform: translateX(-50%);

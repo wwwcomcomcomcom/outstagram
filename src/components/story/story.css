@@ -1,0 +1,19 @@
+#storyScrollButtonLeft {
+    position: absolute;
+    margin-top: 2.5rem;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+@media  (max-width: 800px) {
+    #storyScrollButtonRight {
+        margin-left: 100% !important;
+    }
+}
+#storyScrollButtonRight {
+    position: absolute;
+    margin-left: min(70%,calc(720px));
+    transform: translateX(-100%) translateY(-50%);
+    margin-top: 2.5rem;
+
+    z-index: 1;
+}
