@@ -10,8 +10,8 @@ export function getOS() {
 
 export function getPlatformType(){
     const os = getOS();
-
-    if(os == "Android" || os == "Max/IOS"){
+    console.log(os);
+    if(os == "Android" || os == "Mac/IOS"){
         return "Phone";
     }
     return "PC";
