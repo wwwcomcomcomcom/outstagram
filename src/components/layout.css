@@ -16,7 +16,7 @@
     .main {
         width: 70%;
         max-width: 720px;
-        margin-left: calc(15% + 3rem);
+        margin-left: max(15% + 3rem,50% - 360px + 3rem);
         margin-right: calc(15% - 3rem);
     }
 }
