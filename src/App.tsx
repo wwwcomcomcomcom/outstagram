@@ -6,6 +6,7 @@ import "./reset.css";
 import NotFound from "./routes/notFound.tsx";
 import SearchPage from "./routes/searchPage.tsx";
 import ExplorerPage from "./routes/explorerPage.tsx";
+import DmPage from "./routes/dmPage.tsx";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path:"explorer",
         element:<ExplorerPage/>
+      },
+      {
+        path:"direct",
+        element:<DmPage/>
       }
     ]
   },
