@@ -3,20 +3,9 @@
     #root {
         flex-direction: column;
     }
-    .main {
-        width: 100%;
-        max-width: 800px;
-        margin-left: max(calc((100% - 800px)/2),0px);
-    }
 }
 /* Desktop Layout */
 @media screen and (min-width: 801px) {
     #root {
-    }
-    .main {
-        width: 70%;
-        max-width: 720px;
-        margin-left: max(15% + 3rem,50% - 360px + 3rem);
-        margin-right: calc(15% - 3rem);
     }
 }
