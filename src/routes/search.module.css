@@ -1,0 +1,15 @@
+/* Phone Layout */
+@media screen and (max-width: 800px) {
+    .main {
+        width: 100%;
+        max-width: 800px;
+        margin-left: max(calc((100% - 800px)/2),0px);
+    }
+}
+/* Desktop Layout */
+@media screen and (min-width: 801px) {
+    .main {
+        width: calc(100% - 3rem);
+        margin-left: 3rem;
+    }
+}
